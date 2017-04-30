@@ -17,6 +17,8 @@ public static void main(String[] args) {
 	ArithmeticOperation aop = new ArithmeticOperation();
 	System.out.println(aop.sum(10, 20));
 	System.out.println(aop.sub(10, 20));
+	System.out.println(aop.equal(10, 20));
+	
 }
 
 }
