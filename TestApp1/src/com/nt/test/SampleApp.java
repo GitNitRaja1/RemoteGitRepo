@@ -2,6 +2,7 @@ package com.nt.test;
 
 import com.nt.mod1.ArithmeticOperation;
 
+
 public class SampleApp {
 public static void main(String[] args) {
 	System.out.println("sample app1");
@@ -13,14 +14,13 @@ public static void main(String[] args) {
 	System.out.println("sample app5");
 	System.out.println("sample app4");
 	
-
-	ArithmeticOperation aop = new ArithmeticOperation();
+	ArithmeticOperation aop=null;
+	 aop= new ArithmeticOperation();
 	System.out.println(aop.sum(10, 20));
 	System.out.println(aop.sub(10, 20));
-	System.out.println(aop.equal(10, 20));
-	System.out.println(aop.mul(10, 20));
 	
 	
+
 }
 
 }
