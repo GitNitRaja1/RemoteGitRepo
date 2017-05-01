@@ -1,6 +1,7 @@
 package com.nt.test;
 
 import com.nt.mod1.ArithmeticOperation;
+import com.nt.mod2.LogicalOperations;
 
 public class SampleApp {
 public static void main(String[] args) {
@@ -13,10 +14,16 @@ public static void main(String[] args) {
 	System.out.println("sample app5");
 	System.out.println("sample app4");
 	
-
-	ArithmeticOperation aop = new ArithmeticOperation();
+	ArithmeticOperation aop=null;
+	 aop= new ArithmeticOperation();
+	System.out.println(aop.sum(100, 200));
+	System.out.println(aop.sub(100, 200));
+	
+	
+	LogicalOperations lop=null;
+	lop=new LogicalOperations();
 	System.out.println(aop.sum(10, 20));
-	System.out.println(aop.sub(10, 20));
+	System.out.println(aop.sum(10, 20));
 }
 
 }
