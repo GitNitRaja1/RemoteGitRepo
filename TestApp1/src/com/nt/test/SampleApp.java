@@ -20,17 +20,11 @@ public static void main(String[] args) {
 	System.out.println(aop.sub(100, 200));
 	
 	
-	LogicalOperations lop=null;
-	lop=new LogicalOperations();
-	System.out.println(aop.sum(10, 20));
-<<<<<<< HEAD
-	System.out.println(aop.sum(10, 20));
-=======
-	System.out.println(aop.sub(10, 20));
+	
 	System.out.println(aop.equal(10, 20));
 	System.out.println(aop.mul(10, 20));
 	
->>>>>>> branch 'master' of https://github.com/GitNitRaja1/RemoteGitRepo.git
+
 }
 
 }
